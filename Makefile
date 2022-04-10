@@ -1,8 +1,8 @@
-main.o : ch21/main.c
-	clang -c ch21/main.c
-s
-main : ch21/main.o
-	clang  ch21/main.o -o main
+main.o : ch27/main.c
+	clang -c ch27/main.c
+
+main : ch27/main.o
+	clang  ch27/main.o -o main
 
 clean:
-	rm -f ch21/main.o main
+	rm -f ch27/main.o main
